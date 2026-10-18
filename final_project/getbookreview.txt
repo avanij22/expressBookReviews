@@ -1,0 +1,7 @@
+Task 5 — Get Book Review
+
+Command:
+curl http://localhost:5000/review/1
+
+Output:
+{"message":"No reviews found for this book."}

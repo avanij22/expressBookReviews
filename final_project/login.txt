@@ -1,0 +1,10 @@
+Task 7 — Login
+
+Command:
+curl -X POST http://localhost:5000/customer/login 
+-H "Content-Type: application/json" 
+-c cookies.txt 
+-d '{"username":"avani_test","password":"test123"}'
+
+Output:
+{"message":"User successfully logged in.","token":"PASTE_THE_FULL_TOKEN_FROM_YOUR_TERMINAL_HERE"}

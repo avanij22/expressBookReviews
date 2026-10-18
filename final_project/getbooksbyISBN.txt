@@ -1,0 +1,7 @@
+Task 2 — Get Book by ISBN
+
+Command:
+curl http://localhost:5000/isbn/1
+
+Output:
+{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{}}

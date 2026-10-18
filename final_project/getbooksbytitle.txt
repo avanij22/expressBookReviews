@@ -1,0 +1,7 @@
+Task 4 — Get Books by Title
+
+Command:
+curl http://localhost:5000/title/Pride
+
+Output:
+[{"author":"Jane Austen","title":"Pride and Prejudice","reviews":{}}]
